@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "site_name": "F1 PADDOCK PASS",
+    "version": "3.0 Ultimate Legacy",
+    "author": "Proyecto Aplicaciones Web",
+    "year": 2025,
+    "tech_stack": ["HTML5", "CSS3", "JSON"],
+    "colors": {
+      "f1_red": "#e10600",
+      "f1_black": "#15151e",
+      "f1_dark_gray": "#1f1f27",
+      "white": "#ffffff"
+    }
+  },
+
+  "navigation": [
+    { "label": "INICIO", "url": "index.html" },
+    { "label": "CIRCUITOS", "url": "Circuitos.html" },
+    { "label": "PILOTOS", "url": "pilotos.html" }
+  ],
+
+  "index_page": {
+    "hero": {
+      "label": "DIRECTO DESDE EL PADDOCK",
+      "title": "MÁS QUE VELOCIDAD, ES HISTORIA",
+      "subtitle": "Descubre los secretos de la ingeniería, los trazados que forjan leyendas y la nueva era de la Fórmula 1 que comienza en 2026.",
+      "background_image": "RBInicio.jpg"
+    },
+    "quick_look_news": [
+      {
+        "category": "RETROSPECTIVA",
+        "title": "EL RENACER: 2005 - 2006. Alonso vs Schumacher",
+        "summary": "Un análisis profundo del cambio de guardia que definió una década.",
+        "image": "FerTarjeta.jpg"
+      },
+      {
+        "category": "CIRCUITOS",
+        "title": "TRAZADOS ÉPICOS: Las curvas más peligrosas",
+        "summary": "Eau Rouge, 130R y la Piscina bajo la lupa técnica.",
+        "image": "TrazadosTarjeta.jpg"
+      },
+      {
+        "category": "TÉCNICA",
+        "title": "INGENIERÍA EXTREMA: El coche de 2026",
+        "summary": "Aerodinámica activa y potencia eléctrica sostenible.",
+        "image": "IngeTarjeta.jpg"
+      }
+    ],
+    "next_event": {
+      "tag": "REPLAY: 2025 HIGHLIGHTS",
+      "video_url": "https://www.youtube.com/embed/T1nAmxnTvII",
+      "title": "AUSTRALIAN GRAND PRIX 2026",
+      "description": "El asfalto de Albert Park espera. Melbourne se prepara para la inauguración de la temporada más esperada de la historia.",
+      "telemetry": {
+        "circuit": "Albert Park",
+        "date": "06-08 MAR",
+        "laps": 58,
+        "record": "1:20.235"
+      }
+    }
+  },
+
+  "circuitos_page": {
+    "hero": {
+      "label": "CALENDARIO 2026",
+      "title": "CATEDRALES DE LA VELOCIDAD",
+      "description": "Análisis técnico, historia y datos de telemetría de los trazados más exigentes del mundo.",
+      "image": "spa.jpg"
+    },
+    "trazados": [
+      {
+        "id": "albert-park",
+        "country": "AUSTRALIA - MELBOURNE",
+        "name": "ALBERT PARK CIRCUIT",
+        "description": "Un trazado semi-urbano que rodea el lago de Melbourne. Tras su remodelación, se ha convertido en uno de los circuitos más rápidos del calendario inicial.",
+        "image": "Australia.png",
+        "stats": {
+          "length": "5.278 KM",
+          "laps": 58,
+          "record": "1:20.235"
+        },
+        "technical_analysis": "Trazado de alta velocidad con 14 curvas. Requiere un compromiso medio-alto de carga aerodinámica para gestionar las chicanes rápidas.",
+        "tyre_stress": {
+          "lateral": 60,
+          "abrasion": 40
+        },
+        "history": "Sede del GP de Australia desde 1996. Michael Schumacher ostenta el récord de victorias con 4 triunfos en este asfalto."
+      },
+      {
+        "id": "catalunya",
+        "country": "ESPAÑA - BARCELONA",
+        "name": "CIRCUIT DE BARCELONA",
+        "description": "La referencia absoluta para ingenieros. Un trazado que combina todo tipo de curvas y pone a prueba la eficiencia aerodinámica de los monoplazas.",
+        "image": "cataluña.png",
+        "stats": {
+          "length": "4.657 KM",
+          "laps": 66,
+          "drs_zones": 2
+        },
+        "technical_analysis": "El sector 1 y 3 exigen una tracción perfecta. La eliminación de la chicane final ha devuelto al circuito su esencia de alta velocidad.",
+        "tyre_stress": {
+          "lateral": 90,
+          "traction": 75
+        },
+        "history": "Aquí Max Verstappen logró su primera victoria en 2016, convirtiéndose en el ganador más joven de la historia de la F1."
+      },
+      {
+        "id": "monaco",
+        "country": "MÓNACO - MONTECARLO",
+        "name": "CIRCUIT DE MONACO",
+        "description": "La joya de la corona. Un trazado urbano estrecho y claustrofóbico donde la clasificación lo es todo y el error se paga contra el muro.",
+        "image": "Monaco.png",
+        "stats": {
+          "length": "3.337 KM",
+          "laps": 78,
+          "difficulty": "MÁXIMA"
+        },
+        "technical_analysis": "Dirección máxima y suspensión blanda. Es el único circuito donde se utiliza una relación de marchas específica para la curva Loews.",
+        "tyre_stress": {
+          "lateral": 30,
+          "grip": 20
+        },
+        "history": "Ayrton Senna domina el palmarés con 6 victorias. Ganar en Mónaco otorga el estatus de leyenda inmediata."
+      }
+    ]
+  },
+
+  "pilotos_page": {
+    "hero": {
+      "version": "DATA ENGINE V3.0 (ULTIMATE)",
+      "title": "LOS INMORTALES",
+      "description": "Análisis de la base de datos técnica más profunda de la red. Biometrías, telemetría histórica, videos on-board de alta definición y análisis de rendimiento.",
+      "global_stats": {
+        "titles": 19,
+        "wins": 267,
+        "poles": 269
+      }
+    },
+    "database": [
+      {
+        "id": "msc",
+        "last_name": "SCHUMACHER",
+        "full_name": "MICHAEL SCHUMACHER",
+        "team": "SCUDERIA FERRARI MISSION WINNOW",
+        "team_color": "#E10600",
+        "badge": "7x CHAMPION",
+        "image": "schumacher.jpg",
+        "bio_short": "Michael Schumacher redefinió la Fórmula 1 moderna. No solo fue el piloto más rápido de su era, sino el que profesionalizó el entrenamiento físico y la integración técnica.",
+        "stats": {
+          "titles": 7,
+          "wins": 91,
+          "podiums": 155,
+          "poles": 68,
+          "fast_laps": 77,
+          "gps": 308
+        },
+        "skills": {
+          "race_pace": 99,
+          "qualifying": 95,
+          "wet_weather": 97
+        },
+        "video_analysis": {
+          "title": "THE KAISER AT SPA-FRANCORCHAMPS",
+          "description": "Análisis técnico de la trazada perfecta en Eau Rouge y Blanchimont. Observa la precisión milimétrica en el input del volante.",
+          "url": "https://www.youtube.com/embed/i6Y6nKJ6DVk",
+          "tech_note": "En esta vuelta, Schumacher mantiene una fuerza lateral constante de 4.8G durante 3.2 segundos en la curva Pouhon."
+        },
+        "accordions": {
+          "biography": "Michael Schumacher nació en Hürth en 1969. Su debut con Jordan en Spa 1991 fue el inicio de la era más influyente de la F1. Logró 5 títulos consecutivos con Ferrari (2000-2004).",
+          "records_table": [
+            { "cat": "Vueltas rápidas totales", "val": "77", "status": "Récord Histórico" },
+            { "cat": "Hat-tricks", "val": "22", "status": "Récord Absoluto" },
+            { "cat": "Podios consecutivos", "val": "19", "status": "2001 - 2002" },
+            { "cat": "GPs mismo equipo", "val": "180 (Ferrari)", "status": "Rank 1" }
+          ],
+          "biometrics": {
+            "height_weight": "1.74 m / 74 kg",
+            "heart_rate_rest": "40 bpm",
+            "training": "Natación de fondo y fortalecimiento de cervicales con lastre"
+          }
+        }
+      },
+      {
+        "id": "sen",
+        "last_name": "SENNA",
+        "full_name": "AYRTON SENNA",
+        "team": "MCLAREN HONDA HERITAGE",
+        "team_color": "#F58020",
+        "badge": "MAGIC SENNA",
+        "image": "Semn.jpg",
+        "bio_short": "Senna fue el místico de la velocidad. Su dominio bajo la lluvia y su agresividad en clasificación lo sitúan como el piloto más puro de la historia.",
+        "stats": {
+          "titles": 3,
+          "wins": 41,
+          "poles": 65,
+          "podiums": 80,
+          "fast_laps": 19,
+          "gps": 161
+        },
+        "skills": {
+          "qualifying": 100,
+          "wet_control": 100,
+          "aggressiveness": 98
+        },
+        "video_analysis": {
+          "title": "MONACO 1988: THE PERFECTION OF A MASTER",
+          "description": "Análisis del onboard donde Senna entró en un 'estado de trance' técnico.",
+          "url": "https://www.youtube.com/embed/tvw1BpNxiKY"
+        },
+        "accordions": {
+          "philosophy": "Senna utilizaba una técnica de aceleración única para mantener las revoluciones del motor turbo. Sus batallas con Alain Prost definieron la era más intensa de la competición.",
+          "season_stats": [
+            { "label": "Años en McLaren", "val": "1988 - 1993 (3 Títulos)" },
+            { "label": "Poles consecutivas", "val": "8 (Récord histórico)" },
+            { "label": "Victorias en Mónaco", "val": "6 (Rey de Mónaco)" }
+          ]
+        }
+      },
+      {
+        "id": "ham",
+        "last_name": "HAMILTON",
+        "full_name": "LEWIS HAMILTON",
+        "team": "SCUDERIA FERRARI (2026 PROJECT)",
+        "team_color": "#E10600",
+        "badge": "SIR LEWIS",
+        "image": "hamilton.jpg",
+        "bio_short": "Sir Lewis Hamilton es el piloto de los récords imposibles. Su capacidad para evolucionar con el coche y su dominio absoluto en la era híbrida lo sitúan como una leyenda viviente.",
+        "stats": {
+          "titles": 7,
+          "wins": 103,
+          "poles": 104,
+          "podiums": 197,
+          "points": 4639,
+          "gps": "332+"
+        },
+        "skills": {
+          "tyre_management": 98,
+          "adaptability": 97
+        },
+        "video_analysis": {
+          "title": "SILVERSTONE: THE HOME HERO MASTERCLASS",
+          "description": "Análisis de la gestión de neumáticos bajo presión extrema en vuelta de Clasificación.",
+          "url": "https://www.youtube.com/embed/HD4b164qnMY"
+        },
+        "accordions": {
+          "evolution": "Hamilton pasó de un estilo ultra-agresivo en McLaren a una maestría táctica en Mercedes. Su paso a Ferrari en 2026 representa la unión de la marca más exitosa con el piloto más laureado."
+        }
+      },
+      {
+        "id": "alo",
+        "last_name": "ALONSO",
+        "full_name": "FERNANDO ALONSO",
+        "team": "ASTON MARTIN ARAMCO",
+        "team_color": "#006F62",
+        "badge": "THE NANO",
+        "image": "alonsosamurai.jpg",
+        "bio_short": "Considerado el piloto más completo que ha pisado un paddock. Capaz de leer las carreras como un ingeniero desde el cockpit a 300 km/h.",
+        "stats": {
+          "titles": 2,
+          "wins": 32,
+          "podiums": 106,
+          "gps_starts": "380+",
+          "laps_led": 1773
+        },
+        "skills": {
+          "race_craft": 100,
+          "adaptability": 100
+        },
+        "video_analysis": {
+          "title": "SUZUKA 2005: THE IMPOSSIBLE OVERTAKE",
+          "description": "Análisis técnico del adelantamiento exterior a Schumacher en 130R.",
+          "url": "https://www.youtube.com/embed/KDC_WcR0wjc"
+        },
+        "accordions": {
+          "history_table": [
+            { "team": "Renault / Alpine", "period": "2003-06, 08-09, 21-22", "points": "1100+" },
+            { "team": "Ferrari", "period": "2010-2014", "points": "1190" },
+            { "team": "Aston Martin", "period": "2023-Actualidad", "points": "350+" }
+          ]
+        }
+      }
+    ],
+    "hall_of_fame": [
+      { "rank": 1, "name": "Michael Schumacher", "titles": 7, "years": "1994, 1995, 2000-04", "nat": "Alemana" },
+      { "rank": 2, "name": "Lewis Hamilton", "titles": 7, "years": "2008, 2014, 2015, 2017-20", "nat": "Británica" },
+      { "rank": 3, "name": "Juan Manuel Fangio", "titles": 5, "years": "1951, 1954-57", "nat": "Argentina" },
+      { "rank": 4, "name": "Alain Prost", "titles": 4, "years": "1985, 1986, 1989, 1993", "nat": "Francesa" },
+      { "rank": 5, "name": "Sebastian Vettel", "titles": 4, "years": "2010-13", "nat": "Alemana" },
+      { "rank": 6, "name": "Ayrton Senna", "titles": 3, "years": "1988, 1990, 1991", "nat": "Brasileña" },
+      { "rank": 7, "name": "Max Verstappen", "titles": 3, "years": "2021-23", "nat": "Holandesa" },
+      { "rank": 8, "name": "Fernando Alonso", "titles": 2, "years": "2005, 2006", "nat": "Española" }
+    ],
+    "glossary": [
+      { "term": "APEX", "definition": "El punto más interno de la curva donde el piloto deja de girar y empieza a acelerar." },
+      { "term": "DOWNFORCE", "definition": "Presión aerodinámica que empuja el coche contra el asfalto." },
+      { "term": "DRS", "definition": "Sistema que abre el ala trasera para ganar velocidad en recta." },
+      { "term": "G-FORCE", "definition": "Fuerza de aceleración que empuja al piloto, llegando a 6G en curvas rápidas." },
+      { "term": "UNDERSTEER", "definition": "Cuando el coche no gira lo suficiente y tiende a irse de frente." },
+      { "term": "DIRTY AIR", "definition": "Turbulencia generada por el coche de delante que reduce la carga del seguidor." }
+    ]
+  },
+
+  "footer": {
+    "brand_text": "La base de datos definitiva para los entusiastas de la técnica y la historia de la Formula 1.",
+    "legal_notice": "© 2025 | F1 Paddock Pass Official Legacy Project. Data Compliance FIA."
+  }
+}
